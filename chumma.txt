@@ -1,1 +1,10 @@
-hsvdgsack.jb 1ejhcijpcxbsamnvcjvsa
+stp 1: git add chumma.txt
+stp 2: git config --global user.email ""
+stp 3 : git config --global user.name""
+stp 4: git commit -m "FrstComt"
+stp 5: git branch -M main
+stp 6: git remote add origin https://github.com/UserName/FrstRepo.git
+stp 7: git push --force origin main
+
+Before push files generate ssh_key
+ssh-keygen -o -t rsa -C "USERMAIL" and the add ssh key in server.
